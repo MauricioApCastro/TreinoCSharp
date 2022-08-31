@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variaveis", "Variaveis\Vari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "If", "Operadores e Condicionais\If.csproj", "{EB523E6B-4201-4BDF-A9D9-FB8B59E66653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch", "Switch\Switch.csproj", "{27A9C489-9FE3-43E9-9669-60785B3CBAC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch", "Switch\Switch.csproj", "{27A9C489-9FE3-43E9-9669-60785B3CBAC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternário", "Ternário\Ternário.csproj", "{220CEE01-D0DE-4360-ADD7-9B71750294C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ternário", "Ternário\Ternário.csproj", "{220CEE01-D0DE-4360-ADD7-9B71750294C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While", "While\While.csproj", "{27A4CA03-D603-42D3-8E1E-71DEB2957216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{220CEE01-D0DE-4360-ADD7-9B71750294C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{220CEE01-D0DE-4360-ADD7-9B71750294C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{220CEE01-D0DE-4360-ADD7-9B71750294C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A4CA03-D603-42D3-8E1E-71DEB2957216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A4CA03-D603-42D3-8E1E-71DEB2957216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A4CA03-D603-42D3-8E1E-71DEB2957216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A4CA03-D603-42D3-8E1E-71DEB2957216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
