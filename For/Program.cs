@@ -7,7 +7,10 @@ namespace For
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Hello World!");
+            for (int n= 0;n <= 5;n++ )
+            {
+                Console.WriteLine(n);
+            }
         }
     }
 }
