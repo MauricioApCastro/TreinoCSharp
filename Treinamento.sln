@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funções", "Funções\Fun�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Função Recursiva", "Função Recursiva\Função Recursiva.csproj", "{A15CB4C8-9065-454B-9CF3-C8051991B553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariáveisEConstantes", "VariáveisEConstantes\VariáveisEConstantes.csproj", "{0ED97ECF-1345-446B-B888-645855962BAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariáveisEConstantes", "VariáveisEConstantes\VariáveisEConstantes.csproj", "{0ED97ECF-1345-446B-B888-645855962BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncaoOO", "FuncaoOO\FuncaoOO.csproj", "{D69FD7BD-C2DC-4E8B-9D13-D04F64E99527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{0ED97ECF-1345-446B-B888-645855962BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ED97ECF-1345-446B-B888-645855962BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ED97ECF-1345-446B-B888-645855962BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69FD7BD-C2DC-4E8B-9D13-D04F64E99527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69FD7BD-C2DC-4E8B-9D13-D04F64E99527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69FD7BD-C2DC-4E8B-9D13-D04F64E99527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69FD7BD-C2DC-4E8B-9D13-D04F64E99527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
