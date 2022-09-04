@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funções", "Funções\Funções.csproj", "{3FE5E8AC-F2EE-403A-9E2C-A41CBE72BC73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Função Recursiva", "Função Recursiva\Função Recursiva.csproj", "{A15CB4C8-9065-454B-9CF3-C8051991B553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Função Recursiva", "Função Recursiva\Função Recursiva.csproj", "{A15CB4C8-9065-454B-9CF3-C8051991B553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariáveisEConstantes", "VariáveisEConstantes\VariáveisEConstantes.csproj", "{0ED97ECF-1345-446B-B888-645855962BAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{A15CB4C8-9065-454B-9CF3-C8051991B553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A15CB4C8-9065-454B-9CF3-C8051991B553}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A15CB4C8-9065-454B-9CF3-C8051991B553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED97ECF-1345-446B-B888-645855962BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED97ECF-1345-446B-B888-645855962BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED97ECF-1345-446B-B888-645855962BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED97ECF-1345-446B-B888-645855962BAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
