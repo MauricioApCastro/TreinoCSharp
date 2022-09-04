@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Funções
 {
@@ -24,5 +25,26 @@ namespace Funções
                 i++;
             }
         }
+        private static void LerArquivo(string arquivo)
+        {
+           
+            {
+                using (StreamReader arquivo = File.OpenText(file))
+                {
+                    string linha;
+                    while ((linha = arquivo.ReadLine()) != null)
+                    {
+                       
+                    }
+                }
+            }
+
+            private void ProcessaLinha(object parametro)
+            {
+                string json = (string)parametro;
+                // realiza o processamento
+            }
+        }
+
     }
 }
