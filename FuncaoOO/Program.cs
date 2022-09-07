@@ -1,50 +1,57 @@
-﻿using System;
+﻿using calculo;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using Tela;
 
 namespace FuncaoOO
 {
     class Program
     {
+        public const int SAIDA_PROGRAMA = 0;
+        public const int LER_ARQUIVOS = 1;
+        public const int TABUADA = 2;
+        public const int CALCULO_MEDIA = 3;
+       
+
         static void Main(string[] args)
         {
-           
-            int escolha = 0;
-           
-            switch (escolha)
+            Menu.Criar();
+            
+        }
+       
+
+
+      
+        
+        
+            public static void LerArquivo(int numeroArquivo)
             {
-                case 0:
-                    mensagem();
-                    int valor = int.Parse(Console.ReadLine());
-                    break;
-                case 1:
-                    Console.WriteLine("Você escolheu opção 1");
-                    break;
-                case 2:
-                    Console.WriteLine("Você escolheu opção 2");
-                    break;
-                case 3:
-                    Console.WriteLine("Você escolheu opção 3");
-                    break;
-                case 4:
-                    Console.WriteLine("Você escolheu opção 4");
-                    break;
+                string arquivoComCaminho = @"C:\Users\MAC\Desktop\Arquivos\arq" + numeroArquivo + ".txt";
+                if (File.Exists(arquivoComCaminho))
+                    using (StreamReader arquivo = File.OpenText(arquivoComCaminho))
+                    {
+                        string linha;
+                        while ((linha = arquivo.ReadLine()) != null)
+                        {
+                            Console.WriteLine(linha);
+                        }
+                    }
+                string arquivoComCaminho2 = @"C:\Users\MAC\Desktop\Arquivos\arq" + (numeroArquivo + 1) + ".txt";
+                if ((File.Exists(arquivoComCaminho2)))
+                {
+                    Console.WriteLine("================");
+                    LerArquivo(numeroArquivo + 1);
+                }
             }
 
-        }
-
-        public static void mensagem()
-        {
-            Console.WriteLine ("Digite uma das opções abaixo:" +
-                     "\n     0 - Sair do Programa" +
-                     "\n     1 - Para ler arquivos" +
-                     "\n     2 - Para executar a tabuada" +
-                     "\n     3 - Calcular média de alunos");
-        }
+        
     }
 }
 
 
-    
 
 
-    
+
+
 
