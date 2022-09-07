@@ -16,15 +16,7 @@ namespace Funções
             int c = a + b;
             return c;
         }
-        public static void Tabuada()
-        {
-            int i = 0;
-            while ( i <= 10)
-            {
-                Console.WriteLine("2 X " + i + "= " + (2 * i));
-                i++;
-            }
-        }
+        
         private static void LerArquivo(string arquivo)
         {
            

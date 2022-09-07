@@ -1,4 +1,6 @@
 ﻿using calculo;
+using Calculo;
+using FuncaoOO.Funcoes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,19 +43,21 @@ namespace Tela
                
                 else if (opcao == LER_ARQUIVOS)
                 {
-                  
+                    Ler.Arquivo(1);
+                    Console.WriteLine("\n=================================================\n");
                 }
+
+
                 else if (opcao == TABUADA)
                 {
-                   // Media.media();
+                    Tabuada.Calcular();
+                    Console.WriteLine("\n=================================================\n");
                 }
                 else if (opcao == CALCULO_MEDIA)
                 {
                     Media.Aluno();
                     Console.WriteLine("\n=================================================\n");
-                }
-
-
+                }           
             }
         }
 
