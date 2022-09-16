@@ -8,7 +8,7 @@ namespace calculo
 {
     class Media
     {
-        private static void Aluno()
+        public static void Aluno()
         {
 
             Console.WriteLine("Digite o nome do aluno:");

@@ -6,13 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FuncaoOO.Funcoes
+namespace Diretorio
+
 {
-    class Ler
+    class Diretorio
     {
         private static string caminhoArquivo()
         {
-            return ConfigurationManager.AppSettings["BaseClientes"];
+            return ConfigurationManager.AppSettings["caminho_arquivo"];
             }
         public static void Arquivo(int numeroArquivo)
         {
