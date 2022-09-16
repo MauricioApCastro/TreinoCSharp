@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Diretorio
 
 {
-    class Diretorio
+    class Ler
     {
         private static string caminhoArquivo()
         {

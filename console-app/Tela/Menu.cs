@@ -1,6 +1,6 @@
 ﻿using calculo;
 using Calculo;
-using FuncaoOO.Funcoes;
+using Diretorio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
