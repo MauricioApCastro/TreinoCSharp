@@ -11,6 +11,33 @@ namespace console_app.Classes
     //criação da classe
     public class Cliente
     {
+        /// <summary>
+        /// construtor da classe
+        /// </summary>
+        /// <param name="telefone">telefone inteiro</param>
+        public Cliente(int telefone)
+        {
+            this.Telefone = telefone.ToString();
+        }
+        /// <summary>
+        ///construtor da classe
+        /// </summary>
+        /// <param name="_nome">Para obrigar a preencher o nome</param>
+
+        public Cliente(string _nome)
+        {
+            this.Nome = _nome;
+        }
+
+        /// <summary>
+        /// construtor sem parâmetros
+        /// </summary>
+        public Cliente()
+        {
+
+        }
+
+       
        //definição de atributos
         public string Nome;
         public string Telefone;

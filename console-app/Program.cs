@@ -21,18 +21,19 @@ namespace FuncaoOO
             //retorna clientes
           var clientes = Cliente.LerClientes();
 
-           var cliente = new Cliente();
+           var cliente = new Cliente("mauricio");
             cliente.Nome = "Mauricio";
             cliente.Telefone = "96610-6339";
             cliente.CPF = "170.792.438-40";
             cliente.Gravar();
 
 
-           /* var cliente2 = new Cliente();
+            var cliente2 = new Cliente();
             cliente2.Nome = "Silvia";
             cliente2.Telefone = "99999-6639";
             cliente2.CPF = "123.454.789";
-            cliente2.Gravar();*/
+            cliente2.Gravar();
+             var l = new List<string>();
 
         }
         
