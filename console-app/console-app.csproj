@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="calculo\CalculoMedia.cs" />
+    <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Funcoes\Tabuada.cs" />
     <Compile Include="Diretorio\Ler.cs" />
     <Compile Include="Program.cs" />
