@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiorIdade", "MaiorIdade\Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBanco", "AppBanco\AppBanco.csproj", "{5C11D103-28A2-4BB9-BEAB-8F1627627BDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{F5F9F4DE-5B0B-4337-9EC9-B5B5CBD42C4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{5C11D103-28A2-4BB9-BEAB-8F1627627BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C11D103-28A2-4BB9-BEAB-8F1627627BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C11D103-28A2-4BB9-BEAB-8F1627627BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F9F4DE-5B0B-4337-9EC9-B5B5CBD42C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F9F4DE-5B0B-4337-9EC9-B5B5CBD42C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F9F4DE-5B0B-4337-9EC9-B5B5CBD42C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F9F4DE-5B0B-4337-9EC9-B5B5CBD42C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

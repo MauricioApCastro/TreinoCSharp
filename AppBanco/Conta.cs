@@ -25,6 +25,10 @@ namespace AppBanco
         }
         public void Saca(double valor)
         {
+            if (valor > ConsultaSaldoDisponivel())
+            {
+                Console.WriteLine("Saldo indisponível");
+            }
             this.Saldo -= valor;
         }
 
