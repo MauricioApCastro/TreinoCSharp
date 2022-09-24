@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraBaskara", "Calcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeituraDados", "LeituraDados\LeituraDados.csproj", "{E0EA4AE4-BCCF-4F04-B3C3-D02AB109EDE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSimples", "CadastroSimples\CadastroSimples.csproj", "{8A9AEE5C-2453-4129-A93F-AD9631641514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{E0EA4AE4-BCCF-4F04-B3C3-D02AB109EDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0EA4AE4-BCCF-4F04-B3C3-D02AB109EDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0EA4AE4-BCCF-4F04-B3C3-D02AB109EDE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A9AEE5C-2453-4129-A93F-AD9631641514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9AEE5C-2453-4129-A93F-AD9631641514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9AEE5C-2453-4129-A93F-AD9631641514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9AEE5C-2453-4129-A93F-AD9631641514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

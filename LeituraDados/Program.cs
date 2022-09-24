@@ -16,6 +16,7 @@ namespace LeituraDados
             double n2,altura;
             string nome;
 
+            nome = Console.ReadLine();
             n1 = int.Parse(Console.ReadLine());
             ch = char.Parse( Console.ReadLine());
             //leitura com o ponto
