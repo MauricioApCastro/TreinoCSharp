@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Somador", "Somador\Somador.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diferenciador", "Diferenciador\Diferenciador.csproj", "{714893F7-4DFE-45D8-9E10-8C9AF3C2E868}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolerithSimples", "HolerithSimples\HolerithSimples.csproj", "{73A975AE-7A26-49A8-8B51-1631D8E81767}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{714893F7-4DFE-45D8-9E10-8C9AF3C2E868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714893F7-4DFE-45D8-9E10-8C9AF3C2E868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714893F7-4DFE-45D8-9E10-8C9AF3C2E868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A975AE-7A26-49A8-8B51-1631D8E81767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A975AE-7A26-49A8-8B51-1631D8E81767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A975AE-7A26-49A8-8B51-1631D8E81767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A975AE-7A26-49A8-8B51-1631D8E81767}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
