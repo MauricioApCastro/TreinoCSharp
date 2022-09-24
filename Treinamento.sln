@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoAreaCirculo", "CalculoAreaCirculo\CalculoAreaCirculo.csproj", "{D565BBA6-C312-4B01-9CE9-0C2BBBC9A865}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExeVariaveis", "ExeVariaveis\ExeVariaveis.csproj", "{99827391-81A7-4CE6-A025-FC9413FD5E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraBaskara", "CalculadoraBaskara\CalculadoraBaskara.csproj", "{3BAE8A9D-064D-4F6D-B115-15442A3E8A0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +129,14 @@ Global
 		{D565BBA6-C312-4B01-9CE9-0C2BBBC9A865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D565BBA6-C312-4B01-9CE9-0C2BBBC9A865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D565BBA6-C312-4B01-9CE9-0C2BBBC9A865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99827391-81A7-4CE6-A025-FC9413FD5E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99827391-81A7-4CE6-A025-FC9413FD5E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99827391-81A7-4CE6-A025-FC9413FD5E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99827391-81A7-4CE6-A025-FC9413FD5E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAE8A9D-064D-4F6D-B115-15442A3E8A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAE8A9D-064D-4F6D-B115-15442A3E8A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAE8A9D-064D-4F6D-B115-15442A3E8A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAE8A9D-064D-4F6D-B115-15442A3E8A0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
