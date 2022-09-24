@@ -5,7 +5,8 @@ namespace Variaveis
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+            
             Console.WriteLine("Qual é o seu nome?");
             string nome = Console.ReadLine();
             Console.WriteLine("Qual a sua idade?");
@@ -23,6 +24,7 @@ namespace Variaveis
             Console.WriteLine("Você é do sexo " + sexo);
             Console.WriteLine("Todas as infomações estão corretas?" + corretas);
             Console.WriteLine("Todas as infomações estão erradas?" + erradas);
+            
         }
     }
 }
