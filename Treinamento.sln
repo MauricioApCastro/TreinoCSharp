@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanchonte", "Lanchonte\Lanc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncontraIntervalos", "EncontraIntervalos\EncontraIntervalos.csproj", "{63B60212-C409-415C-AC0C-D2CBD649B7A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafico", "Grafico\Grafico.csproj", "{AAC67968-8B6D-4835-B939-078149A89077}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{63B60212-C409-415C-AC0C-D2CBD649B7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B60212-C409-415C-AC0C-D2CBD649B7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B60212-C409-415C-AC0C-D2CBD649B7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC67968-8B6D-4835-B939-078149A89077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC67968-8B6D-4835-B939-078149A89077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC67968-8B6D-4835-B939-078149A89077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC67968-8B6D-4835-B939-078149A89077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
