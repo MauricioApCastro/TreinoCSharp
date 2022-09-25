@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncontraIntervalos", "Encon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafico", "Grafico\Grafico.csproj", "{AAC67968-8B6D-4835-B939-078149A89077}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impostos", "Impostos\Impostos.csproj", "{F49FA90C-5D19-4B52-9710-18F25B21086D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,10 @@ Global
 		{AAC67968-8B6D-4835-B939-078149A89077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC67968-8B6D-4835-B939-078149A89077}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC67968-8B6D-4835-B939-078149A89077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49FA90C-5D19-4B52-9710-18F25B21086D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49FA90C-5D19-4B52-9710-18F25B21086D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49FA90C-5D19-4B52-9710-18F25B21086D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49FA90C-5D19-4B52-9710-18F25B21086D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
