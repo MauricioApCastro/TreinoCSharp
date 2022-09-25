@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaisVelha", "MaisVelha\Mais
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalarioMedio", "SalarioMedio\SalarioMedio.csproj", "{092B53EC-C697-4357-BDDE-87FFD63E0876}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueApp", "EstoqueApp\EstoqueApp.csproj", "{7D5E3C3F-24AB-41A5-B09E-3B0F2123D0C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -233,6 +235,10 @@ Global
 		{092B53EC-C697-4357-BDDE-87FFD63E0876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{092B53EC-C697-4357-BDDE-87FFD63E0876}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{092B53EC-C697-4357-BDDE-87FFD63E0876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5E3C3F-24AB-41A5-B09E-3B0F2123D0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5E3C3F-24AB-41A5-B09E-3B0F2123D0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5E3C3F-24AB-41A5-B09E-3B0F2123D0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5E3C3F-24AB-41A5-B09E-3B0F2123D0C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
