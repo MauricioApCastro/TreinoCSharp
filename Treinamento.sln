@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impostos", "Impostos\Impost
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaTriangulo", "AreaTriangulo\AreaTriangulo.csproj", "{2A4168F9-B767-4018-B410-A8217821F6EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaisVelha", "MaisVelha\MaisVelha.csproj", "{997A24AF-E614-4F20-809F-F9A50D983477}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +223,10 @@ Global
 		{2A4168F9-B767-4018-B410-A8217821F6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A4168F9-B767-4018-B410-A8217821F6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A4168F9-B767-4018-B410-A8217821F6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997A24AF-E614-4F20-809F-F9A50D983477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997A24AF-E614-4F20-809F-F9A50D983477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997A24AF-E614-4F20-809F-F9A50D983477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997A24AF-E614-4F20-809F-F9A50D983477}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
