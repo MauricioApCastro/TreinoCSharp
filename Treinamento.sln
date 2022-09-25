@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificadorNegativo", "Veri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParImpar", "ParImpar\ParImpar.csproj", "{F70115E9-09E2-49E6-A990-CB7868120E33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplo", "Multiplo\Multiplo.csproj", "{0EB9646C-9F37-42A8-94F2-21A06D7849AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{F70115E9-09E2-49E6-A990-CB7868120E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F70115E9-09E2-49E6-A990-CB7868120E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F70115E9-09E2-49E6-A990-CB7868120E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB9646C-9F37-42A8-94F2-21A06D7849AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB9646C-9F37-42A8-94F2-21A06D7849AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB9646C-9F37-42A8-94F2-21A06D7849AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB9646C-9F37-42A8-94F2-21A06D7849AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
