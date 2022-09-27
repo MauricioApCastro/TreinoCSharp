@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holerith2", "Holerith2\Hole
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotacaoDolar", "CotacaoDolar\CotacaoDolar.csproj", "{7D81F14A-5AC9-4A98-8D4E-A5342E92C0A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construtores", "Construtores\Construtores.csproj", "{101E09A4-2516-4381-A3D6-422CA33F3ECF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -257,6 +259,10 @@ Global
 		{7D81F14A-5AC9-4A98-8D4E-A5342E92C0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D81F14A-5AC9-4A98-8D4E-A5342E92C0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D81F14A-5AC9-4A98-8D4E-A5342E92C0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101E09A4-2516-4381-A3D6-422CA33F3ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101E09A4-2516-4381-A3D6-422CA33F3ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101E09A4-2516-4381-A3D6-422CA33F3ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101E09A4-2516-4381-A3D6-422CA33F3ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
