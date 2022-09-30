@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancaria", "ContaBanca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array2", "Array2\Array2.csproj", "{4D468DBC-6D48-4537-8696-8D9CBE51F897}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel", "Hotel\Hotel.csproj", "{602389B7-0D53-4A90-AFC3-4D7F658D558F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,10 @@ Global
 		{4D468DBC-6D48-4537-8696-8D9CBE51F897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D468DBC-6D48-4537-8696-8D9CBE51F897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D468DBC-6D48-4537-8696-8D9CBE51F897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602389B7-0D53-4A90-AFC3-4D7F658D558F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602389B7-0D53-4A90-AFC3-4D7F658D558F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602389B7-0D53-4A90-AFC3-4D7F658D558F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602389B7-0D53-4A90-AFC3-4D7F658D558F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
