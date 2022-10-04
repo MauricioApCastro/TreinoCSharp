@@ -15,19 +15,18 @@ namespace Holerith2
 
         public double SalarioLiquido()
         {
-            return SalarioBruto - Imposto;
+            return SalarioBruto - Imposto; 
         }
 
-        public void  AumentarSalario(double porcentagem)
+        public void AumentarSalario(double porcentagem)
         {
-            SalarioBruto = SalarioBruto + (SalarioBruto * porcentagem / 100.0);
+            SalarioBruto = SalarioBruto +SalarioBruto * porcentagem / 100.0;
         }
 
         public override string ToString()
         {
-            return Nome + " , R$" + SalarioLiquido().ToString("F2",CultureInfo.InvariantCulture);
+            return "Nome: "+Nome+", $"+SalarioLiquido().ToString("F2",CultureInfo.InvariantCulture);
         }
-
 
 
     }

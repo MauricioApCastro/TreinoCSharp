@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B09ECCD4-6E42-463C-A60D-BDD9354178B8}</ProjectGuid>
+    <ProjectGuid>{D0244E62-4EF9-45E6-8702-E31B11B3F29C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AppBanco</RootNamespace>
-    <AssemblyName>AppBanco</AssemblyName>
+    <RootNamespace>Fazendo</RootNamespace>
+    <AssemblyName>Fazendo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conta.cs" />
+    <Compile Include="Funcionario.cs" />
+    <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retangulo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
