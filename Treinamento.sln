@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBanco", "AppBanco\AppBan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fazendo", "Fazendo\Fazendo.csproj", "{D0244E62-4EF9-45E6-8702-E31B11B3F29C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprovacaoAluno", "AprovacaoAluno\AprovacaoAluno.csproj", "{32FFE7D7-DD9D-416B-90CC-91A5C0B92EAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -305,6 +307,10 @@ Global
 		{D0244E62-4EF9-45E6-8702-E31B11B3F29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0244E62-4EF9-45E6-8702-E31B11B3F29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0244E62-4EF9-45E6-8702-E31B11B3F29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FFE7D7-DD9D-416B-90CC-91A5C0B92EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FFE7D7-DD9D-416B-90CC-91A5C0B92EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FFE7D7-DD9D-416B-90CC-91A5C0B92EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FFE7D7-DD9D-416B-90CC-91A5C0B92EAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
