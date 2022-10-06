@@ -9,10 +9,13 @@ namespace ContaBancaria
 {
     class Conta
     {
+        //encapsulamento
         public int Numero { get; private set; }
         public string Titular { get; set; }
         public double Saldo { get; private set; }
 
+
+        //construtor
         public Conta(int numero, string titular)
         {
             Numero = numero;          
@@ -24,6 +27,7 @@ namespace ContaBancaria
             Saldo = saldo;
         }
 
+        //métodos
         public void Deposita(double quantia)
         {
             Saldo += quantia;
