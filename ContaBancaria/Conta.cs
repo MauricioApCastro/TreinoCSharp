@@ -9,19 +9,21 @@ namespace ContaBancaria
 {
     class Conta
     {
+        //atributos
         //encapsulamento
         public int Numero { get; private set; }
         public string Titular { get; set; }
         public double Saldo { get; private set; }
 
 
-        //construtor
+        //construtor com 2 argumentos
         public Conta(int numero, string titular)
         {
             Numero = numero;          
             Titular = titular;          
         }
 
+        //construtor de 3 argumentos
         public Conta(int numero, string titular, double saldo) : this(numero, titular)
         {
             Saldo = saldo;
