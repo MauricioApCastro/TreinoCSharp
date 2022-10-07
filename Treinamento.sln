@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco2", "Banco2\Banco2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scruct", "Scruct\Scruct.csproj", "{AD33D1C0-82E0-434E-BACD-9C845A39FAE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecoMedio", "PrecoMedio\PrecoMedio.csproj", "{65023FCF-F9C8-4515-8491-43BEBB42DB8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -329,6 +331,10 @@ Global
 		{AD33D1C0-82E0-434E-BACD-9C845A39FAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD33D1C0-82E0-434E-BACD-9C845A39FAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD33D1C0-82E0-434E-BACD-9C845A39FAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65023FCF-F9C8-4515-8491-43BEBB42DB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65023FCF-F9C8-4515-8491-43BEBB42DB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65023FCF-F9C8-4515-8491-43BEBB42DB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65023FCF-F9C8-4515-8491-43BEBB42DB8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
