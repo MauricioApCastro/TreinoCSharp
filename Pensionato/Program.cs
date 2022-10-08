@@ -11,6 +11,7 @@ namespace Pensionato
     {
         static void Main(string[] args)
         {
+            //cria vetor de 10 posições
             Hospede[] hotel = new Hospede[10];
             Console.Write("Quantos quartos serão alugados? ");
             int n = int.Parse(Console.ReadLine());
@@ -24,6 +25,7 @@ namespace Pensionato
                 string email = Console.ReadLine();
                 Console.Write("Quarto: ");
                 int numeroQuarto = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture) ;
+                //insere 2 strings no unico indice do vetor
                 hotel[numeroQuarto] = new Hospede(nome, email);
              
             }
@@ -31,6 +33,7 @@ namespace Pensionato
             Console.WriteLine("Quartos ocupados:");
             for (int i = 0; i < 10; i++)
             {
+                //testa se a posição é nula
                 if (hotel[i] != null)
                 {
                     Console.WriteLine(i + ": " + hotel[i].Nome+", " + hotel[i].Email);
