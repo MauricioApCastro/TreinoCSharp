@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{A327D741-4FEC-4C54-B6F7-A2F2FF919F03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matriz", "matriz\matriz.csproj", "{4C7A9998-9843-4A9F-90D7-2EB668E653FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -353,6 +355,10 @@ Global
 		{A327D741-4FEC-4C54-B6F7-A2F2FF919F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A327D741-4FEC-4C54-B6F7-A2F2FF919F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A327D741-4FEC-4C54-B6F7-A2F2FF919F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7A9998-9843-4A9F-90D7-2EB668E653FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7A9998-9843-4A9F-90D7-2EB668E653FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7A9998-9843-4A9F-90D7-2EB668E653FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7A9998-9843-4A9F-90D7-2EB668E653FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
